@@ -44,8 +44,8 @@ public class FourthActivity extends AppCompatActivity {
         }
 
         NotificationCompat.Builder builder = new NotificationCompat.Builder(this, "TEST_CHANNEL")
-                .setContentTitle("Т-423901-ИСТ")
-                .setContentText("Трухар Андрей Леонидович")
+                .setContentTitle("Пора спать")
+                .setContentText("Настало время готовиться ко сну")
                 .setPriority(NotificationCompat.PRIORITY_DEFAULT)
                 .setSmallIcon(R.drawable.notify)
                 .setAutoCancel(true);
